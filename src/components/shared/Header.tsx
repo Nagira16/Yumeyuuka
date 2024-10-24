@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 const Header = () => {
   return (
     <header>
-      <nav className="flex items-center justify-around bg-black">
+      <nav className="flex items-center justify-around bg-black ">
         <div className="">
           <Link href="/">
             <Image src={navLogo} alt="nav-logo" width={142} />
