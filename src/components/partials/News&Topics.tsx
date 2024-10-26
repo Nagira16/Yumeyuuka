@@ -78,7 +78,7 @@ const NewsTopics = () => {
               </li>
               <li>
                 <Button className="w-full py-5 bg-cyan-800 rounded-none border border-cyan-800 hover:bg-white hover:text-cyan-800">
-                  Hotel Plans
+                  Hotel Offers
                   <Search />
                 </Button>
               </li>
