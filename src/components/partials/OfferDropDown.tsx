@@ -16,7 +16,7 @@ const OfferDropDown = () => {
 
       {isOpen && (
         <div
-          className="absolute top-12 w-36 "
+          className="absolute top-12 w-36 h-full z-20"
           onMouseLeave={() => setIsOpen(false)}
         >
           <div className="flex flex-col items-center space-y-2 text-center">
