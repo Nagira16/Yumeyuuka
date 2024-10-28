@@ -11,10 +11,10 @@ const NewsTopics = () => {
       <div className=" absolute top-32 w-full">
         <section className=" grid grid-cols-3 w-full h-full">
           <div className=" text-center flex justify-end mr-12">
-            <h5 className=" text-cyan-700 text-2xl font-serif">
+            <h5 className=" text-cyan-800 text-2xl font-serif">
               News & Topics
-              <hr className="border-cyan-700 mb-[3px]" />
-              <hr className="border-cyan-700" />
+              <hr className="border-cyan-800 mb-[3px]" />
+              <hr className="border-cyan-800" />
             </h5>
           </div>
 
@@ -22,32 +22,32 @@ const NewsTopics = () => {
             <ul className=" space-y-6 text-xs">
               <li>
                 <Link href="">
-                  <p className="text-cyan-700 mb-2"> 2024年10月15日</p>
+                  <p className="text-cyan-800 mb-2"> 2024年10月15日</p>
                   <p>【まだまだイベント満載！】１０月後半の鳥羽イベント情報</p>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <p className="text-cyan-700 mb-2">2024年10月9日</p>
+                  <p className="text-cyan-800 mb-2">2024年10月9日</p>
                   <p>【牡蠣づくしの旅】周辺オススメ飲食店のご紹介</p>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <p className="text-cyan-700 mb-2">2024年10月3日</p>
+                  <p className="text-cyan-800 mb-2">2024年10月3日</p>
                   <p>【合言葉はオクトバ！】１０月は鳥羽の月 イベント満載！</p>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <p className="text-cyan-700 mb-2">2024年9月25日</p>
+                  <p className="text-cyan-800 mb-2">2024年9月25日</p>
                   <p>【今年も開催！】夢遊華 ハロウィンを探そうキャンペーン</p>
                 </Link>
               </li>
 
               <li>
                 <Link href="">
-                  <p className="text-cyan-700 mb-2">2024年9月24日</p>
+                  <p className="text-cyan-800 mb-2">2024年9月24日</p>
                   <p>
                     【自由気ままに！おひとり様ステイ】マイカープランのご紹介
                   </p>

@@ -25,7 +25,7 @@ const Header = () => {
             </Link>
           ))}
           <OfferDropDown />
-          <Button className="bg-cyan-900 w-36 h-10 rounded-none hover:bg-orange-300 duration-500">
+          <Button className="bg-cyan-800 w-36 h-10 rounded-none hover:bg-orange-300 duration-500">
             ONLINE CHECKIN
           </Button>
         </div>

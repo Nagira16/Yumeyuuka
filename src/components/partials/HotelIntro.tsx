@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { Button } from "../ui/button";
 import { HOTEL_INTRO_ITEMS } from "../constants";
+import Link from "next/link";
 
 const HotelIntro = () => {
   return (
@@ -48,8 +49,8 @@ const HotelIntro = () => {
                   width={250}
                   className="rounded-full mb-10"
                 />
-                <Button className=" bg-cyan-700 rounded-none w-[250px] py-6">
-                  {item.title}
+                <Button className=" bg-cyan-800 rounded-none w-[250px] py-6 border border-cyan-800 hover:bg-white hover:text-cyan-800">
+                  <Link href={item.link}>{item.title}</Link>
                 </Button>
               </div>
             ))}

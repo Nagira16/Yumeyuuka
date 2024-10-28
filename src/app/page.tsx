@@ -1,3 +1,4 @@
+import HotelAbout from "@/components/partials/HotelAbout";
 import HotelIntro from "@/components/partials/HotelIntro";
 import NewsTopics from "@/components/partials/News&Topics";
 import { ChevronRight } from "lucide-react";
@@ -23,6 +24,7 @@ const Home = () => {
       </div>
       <NewsTopics />
       <HotelIntro />
+      <HotelAbout />
     </div>
   );
 };
